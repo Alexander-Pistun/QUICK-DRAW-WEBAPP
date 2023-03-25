@@ -1,0 +1,46 @@
+body
+{
+    background-color: yellow;
+}
+
+h1
+{
+    color: black;
+    background-color: whitesmoke;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 35px;
+}
+
+#show_sketch
+{
+    float: right;
+    font-family: 'Rubik Iso', cursive;
+}
+
+canvas
+{
+    border: 5px solid cornsilk;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 40px white;}
+    to{box-shadow: 1px 1px 40px darkgray;}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+#clearCanvas
+{
+    position: bottom;
+    margin-top: 375px;
+}
